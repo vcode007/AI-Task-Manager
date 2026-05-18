@@ -1,0 +1,33 @@
+.add-trigger {
+  border: 1.5px dashed var(--border);
+  background: transparent;
+  color: var(--text-muted);
+  width: 100%;
+  padding: 10px;
+  border-radius: var(--radius);
+  text-align: left;
+  font-size: 13px;
+}
+.add-trigger:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-light); }
+
+.add-form {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-row {
+  display: flex;
+  gap: 8px;
+}
+.form-row select { flex-shrink: 0; width: auto; }
+
+.form-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+}
